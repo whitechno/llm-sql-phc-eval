@@ -1,8 +1,8 @@
 # LLM-SQL-PHC Benchmark Datasets
 
 Source paper: *Optimizing LLM Queries in Relational Data Analytics Workloads*
-(arXiv:2403.05821v2, April 2025). Section 6.1.1 lists 7 datasets used for
-evaluation.
+(arXiv:2403.05821v2, April 2025) [[LLM-SQL](https://arxiv.org/abs/2403.05821)].
+Section 6.1.1 lists 7 datasets used for evaluation.
 
 ## Dataset Summary (from Table 1)
 
