@@ -756,7 +756,7 @@ wheels = [
 [[package]]
 name = "llm-sql-phc-eval"
 version = "0.1.0"
-source = { virtual = "." }
+source = { editable = "." }
 dependencies = [
     { name = "jupyterlab" },
     { name = "matplotlib" },
