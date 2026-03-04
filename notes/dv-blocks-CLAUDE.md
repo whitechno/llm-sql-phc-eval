@@ -111,7 +111,8 @@ According to the intersection of their rows $R_a$ and $R_b$, there are 3
 possible relationship types between two blocks $a$ and $b$:
 - **No overlap**, $R_a \cap R_b = \emptyset$.
 - **Strict overlap**, when one is strictly within the other, say $b$
-  within $a$: $R_b \subset R_a$ and $R_a \setminus R_b \neq \emptyset$.
+  within $a$: $R_b \subset R_a$ and $R_a \setminus R_b \neq \emptyset$. (Can be
+  expressed as $R_b \subsetneq R_a$.)
 - **Normal overlap**, $R_a \neq R_b$ and $R_a \cap R_b \neq \emptyset$.
 
 (Obviously, we cannot have two blocks that span the same set of
