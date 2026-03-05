@@ -126,6 +126,15 @@ vertices and edges between blocks that have a normal overlap.
 Express each dataset as such a graph, present some interesting properties of the
 graph, and compute its connectivity.
 
+### Accumulating hit counts from inner removed distinct values
+
+For each kept block-vertex calculate "inner hit count" - the sum of hit counts
+of all blocks that are strictly within this block-vertex and are "inner
+removed".
+
+Show "inner hit count" (as "inner_hc") for all displayed blocks in the
+"show_analysis" function.
+
 ## EDA-04 results: graph connectivity findings
 
 Notebook: `nbs/eda-04-dv-blocks-conn.ipynb`.
